@@ -1,0 +1,21 @@
+a=matrix(c(1,2,3,4,5,6,7,8,9),nrow=3,ncol = 3,byrow=TRUE)
+print(a)
+b=matrix(3,nrow=3,ncol=3)
+print(b)
+c=diag(1,nrow=3,ncol=3)
+print(c)
+dim(a)
+nrow(a)
+ncol(a)
+length(a)
+rownames(a)=c('a','b','c')
+colnames(a)=c(1,2,3)
+print(a)
+a[,1:2]
+a[c('a','b'),1:2]
+a[3,2]
+a[,1]
+a[nrow(a),]
+a[,-2]
+a[1,3]=5
+print(a)
